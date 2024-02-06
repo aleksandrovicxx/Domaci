@@ -1,0 +1,6 @@
+#tabela, td {
+    border: 1px solid black;
+}
+#tabela tr td {
+    width: 155px;
+}

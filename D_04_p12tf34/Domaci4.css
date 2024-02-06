@@ -1,0 +1,42 @@
+#prva_sekcija{
+    border-color: black;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#prva_sekcija label{
+    padding-left: 50px;  
+} 
+#prva_sekcija input{
+    margin-left: 50px;
+}
+#druga_sekcija{
+    border-radius: 12px;
+    border-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#druga_sekcija p{
+    margin-left: 50px;
+}
+#druga_sekcija label{
+    margin-left: 50px;
+}
+#druga_sekcija input{
+    padding-left: 20px;
+}
+#DeoNakonFieldset{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#DeoNakonFieldset input{
+    margin-left: 50px;
+}
+form{
+    background-color: paleturquoise;
+    border-radius: 15px;
+}
+legend{
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+}

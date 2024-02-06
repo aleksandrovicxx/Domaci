@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    color: rgb(32, 83, 178);
+}
+body{
+    background-color: orange;
+}
+img{
+    border: 12px green double;
+    border-radius: 20%;
+}
+p:nth-child(odd){
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+p:nth-child(2){
+    text-align: right;
+}
+.drugi_paragraf{
+    font-size: x-large;
+    color: rgb(255, 225, 186);
+}
+p a{
+    color: red;
+    text-decoration: none;
+}
+p a:hover{
+    color: green;
+}

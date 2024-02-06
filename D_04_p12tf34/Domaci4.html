@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domaći 4</title>
+    <link rel="stylesheet" href="Domaci4.css">
+</head>
+<body>
+    <Form>
+        <fieldset id="prva_sekcija">
+            <legend>Login details</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name" id="name"></td>  
+                </tr>
+                
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>  
+
+                <tr>
+                    <td><label for="pw">Password:</label></td>
+                    <td><input type="password" name="pw" id="pw"></td>
+                </tr>
+            </table>    
+        </fieldset>
+        <fieldset id="druga_sekcija">
+            <legend>Your feedback</legend>
+            <p>Please check all the emotions that apply to you:</p>
+            <p>
+                <label for="angry">Angry</label>
+                <input type="checkbox" name="emotions" id="angry" value="emotions">
+            </p>
+            <p>
+                <label for="sad">Sad</label>
+                <input type="checkbox" name="emotions" id="sad" value="emotions">
+            </p>
+            <p>
+                <label for="happy">Happy</label>
+                <input type="checkbox" name="emotions" id="happy" value="emotions">
+            </p>
+            <p>
+                <label for="ambivalent">Ambivalent</label>
+                <input type="checkbox" name="emotions" id="ambivalent" value="emotions" checked>
+            </p>
+            <p>How satisfied were you with our service?</p>
+            <p>
+                <label for="Very satisfied">Very satisfied</label>
+                <input type="radio" name="how satisfied" id="Very satisfied" value="how satisfied">
+            </p>
+            <p>
+                <label for="Satisfied">Satisfied</label>
+                <input type="radio" name="how satisfied" id="Satisfied" value="how satisfied">
+            </p>
+            <p>
+                <label for="didn't care">Didn't care</label>
+                <input type="radio" name="how satisfied" id="Didn't care" value="how satisfied">
+            </p>
+            <p>
+                <label for="Dissatisfied">Dissatisfied</label>
+                <input type="radio" name="how satisfied" id="Dissatisfied" value="how satisfied">
+            </p>
+                <label for="comments">Further comments:</label>
+                <textarea name="comments" id="comments" cols="20" rows="3"></textarea>
+        </fieldset>
+        <div id="DeoNakonFieldset">
+            <label for="file">Bio Photo:</label>
+            <input type="file" name="file" id="Bio Photo">
+            
+            <label for="location">Location visited: </label>
+            <select name="College" id="college" style="margin-left: 11px; margin-top: 6px;">
+                <optgroup label="Prve lokacije">
+                    <option value="Lokacija1">Lokacija1</option>
+                    <option value="Lokacija2">Lokacija2</option>
+                    <option value="Lokacija3">Lokacija3</option>
+                </optgroup>
+                <optgroup label="Druge lokacije">
+                    <option value="Lokacija4">Lokacija4</option>
+                    <option value="Lokacija5">Lokacija5</option>
+                    <option value="Lokacija6">Lokacija6</option>
+                </optgroup>
+            </select>        
+        </div>
+        <input type="submit" style="margin-left: 100px; margin-top: 10px;">
+        <br>
+        <input type="reset" style="margin-left: 100px; margin-top: 10px;">
+    </Form>
+    
+</body>
+</html>

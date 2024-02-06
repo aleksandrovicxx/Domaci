@@ -1,0 +1,57 @@
+[
+    {
+        "imePrezime": "Vlade Divac",
+        "visina": 216,
+        "timovi": ["Lakers", "Kings"]
+    },
+    {
+        "imePrezime": "Dirk Nowitzki",
+        "visina": 213,
+        "timovi": ["Mavericks"]
+    },
+    {
+        "imePrezime": "Kobe Bryant",
+        "visina": 198,
+        "timovi": ["Lakers"]
+    },
+    {
+        "imePrezime": "LeBron James",
+        "visina": 206,
+        "timovi": ["Cavaliers", "Heat", "Lakers"]
+    },
+    {
+        "imePrezime": "Michael Jordan",
+        "visina": 198,
+        "timovi": ["Bulls", "Wizards"]
+    },
+    {
+        "imePrezime": "Tim Duncan",
+        "visina": 211,
+        "timovi": ["Spurs"]
+    },
+    {
+        "imePrezime": "Shaquille O'Neal",
+        "visina": 216,
+        "timovi": ["Magic", "Lakers", "Heat"]
+    },
+    {
+        "imePrezime": "Hakeem Olajuwon",
+        "visina": 213,
+        "timovi": ["Rockets", "Raptors"]
+    },
+    {
+        "imePrezime": "Larry Bird",
+        "visina": 206,
+        "timovi": ["Celtics"]
+    },
+    {
+        "imePrezime": "Magic Johnson",
+        "visina": 206,
+        "timovi": ["Lakers"]
+    },
+    {
+        "imePrezime": "Dražen Petrović",
+        "visina": 196,
+        "timovi": ["Cibona", "Real Madrid", "Nets"]
+    }
+]

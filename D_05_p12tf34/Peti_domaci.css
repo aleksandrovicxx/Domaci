@@ -1,0 +1,17 @@
+section{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+section div{
+    text-align: center;
+    position: relative;
+    width: 33%;
+    float: left;
+}
+aside{
+    position: relative;
+    top: 350px;
+}
